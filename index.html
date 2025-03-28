@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+    <link rel="stylesheet" href="./custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <section class="calculatorsection">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col d-flex align-items-center justify-content-center">
+                        <form class="calculator bg-dark rounded p-4">
+                            <div class="form-group resultbox rounded d-flex align-items-center justify-content-center flex-column m-3">
+                                <h3>Array Operations</h3>
+                                <input id="result" class="form-control Outputbox" readonly>
+                            </div>
+
+                            <div class="userinputbox p-1 rounded">
+                                <div class="form-group d-flex align-items-center justify-content-center flex-column">
+                                    <h5>Enter Value</h5>
+                                    <div class="inputbox d-flex align-items-center justify-content-center">
+                                        <input type="text" id="num1" class="form-control m-1" placeholder="Enter value">
+                                    </div>
+                                </div>
+
+                                <div class="arraybox">
+                                    <div class="row1 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="arraybtn m-1 ml-2">Shift</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Unshift</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Delete</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Concat</button>
+                                    </div>
+                                    <div class="row1 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="arraybtn m-1 ml-2">Filter</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Find</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Sort</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Reverse</button>
+                                    </div>
+                                    <div class="row1 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="arraybtn m-1 ml-2">Length</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Pop</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Push</button>
+                                        <button type="button" class="arraybtn m-1 ml-2">Slice</button>
+                                    </div>
+                                    <div class="row1 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="arraybtn m-1 ml-2">Splice</button>
+                                    </div>
+                                </div>
+
+                                <div class="div d-flex align-items-center justify-content-center m-3">
+                                    <button type="button" class="btn btn-danger m-1" onclick="resetArray()">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+

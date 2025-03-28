@@ -1,0 +1,47 @@
+.resetbtn {
+    padding: 0.5rem 1rem;
+    background-color: #00ffff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.arraybtn {
+    padding: 0.5rem 1rem;
+    background-color: #1eff00;
+    width: 5rem;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin: auto;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .row1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
