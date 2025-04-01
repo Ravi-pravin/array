@@ -38,11 +38,17 @@
     .grid-2,
     .grid-3,
     .grid-4 {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: 1fr;
     }
 
-    .row1 {
+    .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box2 {
         display: flex;
         align-items: center;
         justify-content: center;

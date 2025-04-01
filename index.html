@@ -22,7 +22,8 @@
                 <div class="row py-5">
                     <div class="col d-flex align-items-center justify-content-center">
                         <form class="calculator rounded p-4">
-                            <div class="form-group resultbox rounded d-flex align-items-center justify-content-center flex-column m-3">
+                            <div
+                                class="form-group resultbox rounded d-flex align-items-center justify-content-center flex-column m-3">
                                 <h3>Array</h3>
                                 <input id="result" class="form-control Outputbox" readonly>
                             </div>
@@ -37,22 +38,34 @@
 
                                 <div class="arraybox">
                                     <div class="row1 d-flex align-items-center justify-content-center">
-                                        <button type="button" class="arraybtn m-1 ml-2">Shift</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Unshift</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Delete</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Concat</button>
+                                        <div class="box1">
+                                            <button type="button" class="arraybtn m-1 ml-2">Shift</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Unshift</button>
+                                        </div>
+                                        <div class="box2">
+                                            <button type="button" class="arraybtn m-1 ml-2">Delete</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Concat</button>
+                                        </div>
                                     </div>
                                     <div class="row1 d-flex align-items-center justify-content-center">
-                                        <button type="button" class="arraybtn m-1 ml-2">Filter</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Find</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Sort</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Reverse</button>
+                                        <div class="box1">
+                                            <button type="button" class="arraybtn m-1 ml-2">Filter</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Find</button>
+                                        </div>
+                                        <div class="box2">
+                                            <button type="button" class="arraybtn m-1 ml-2">Sort</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Reverse</button>
+                                        </div>
                                     </div>
                                     <div class="row1 d-flex align-items-center justify-content-center">
-                                        <button type="button" class="arraybtn m-1 ml-2">Length</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Pop</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Push</button>
-                                        <button type="button" class="arraybtn m-1 ml-2">Slice</button>
+                                        <div class="box1">
+                                            <button type="button" class="arraybtn m-1 ml-2">Length</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Pop</button>
+                                        </div>
+                                        <div class="box2">
+                                            <button type="button" class="arraybtn m-1 ml-2">Push</button>
+                                            <button type="button" class="arraybtn m-1 ml-2">Slice</button>
+                                        </div>
                                     </div>
                                     <div class="row1 d-flex align-items-center justify-content-center">
                                         <button type="button" class="arraybtn m-1 ml-2">Splice</button>
@@ -60,7 +73,8 @@
                                 </div>
 
                                 <div class="div d-flex align-items-center justify-content-center m-3">
-                                    <button type="button" class="btn btn-danger m-1" onclick="resetArray()">Reset</button>
+                                    <button type="button" class="btn btn-danger m-1"
+                                        onclick="resetArray()">Reset</button>
                                 </div>
                             </div>
                         </form>
@@ -76,6 +90,3 @@
 </body>
 
 </html>
-
-
-
