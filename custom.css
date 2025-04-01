@@ -6,6 +6,10 @@
     border-radius: 5px;
 }
 
+.calculator {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
 .arraybtn {
     padding: 0.5rem 1rem;
     background-color: #1eff00;
@@ -18,7 +22,7 @@
 .form-group h3 {
     font-size: 2rem;
     font-weight: 500;
-    color: #ffffff;
+    color: #1d1d1d;
     margin-bottom: 1rem;
 }
 
